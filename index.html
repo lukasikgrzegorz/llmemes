@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="refresh" content="0; url=https://grzegorzlukasik.substack.com/">
   <title>llmem.es</title>
-  <script>window.location.replace("https://grzegorzlukasik.substack.com/");</script>
+  <script>
+    var path = window.location.pathname + window.location.search + window.location.hash;
+    window.location.replace("https://grzegorzlukasik.substack.com" + path);
+  </script>
 </head>
 <body>
 </body>
